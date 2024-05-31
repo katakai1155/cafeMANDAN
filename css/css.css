@@ -19,7 +19,7 @@ body{
 header{
     width: 1335px;
     height: 630px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/店内/pexels-scott-webb-253058611.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/store/pexels-scott-webb-253058611.jpg);
     background-repeat: no-repeat;
     display: flex;
     position: relative;
@@ -168,7 +168,7 @@ section .wrapper{
 .header2{
     width: 1335px;
     height: 246px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/漫画関連/aaa.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/manga/aaa.jpg);
     background-repeat: no-repeat;
     display: flex;
     position: relative;
@@ -286,7 +286,7 @@ footer .footer-wrap .footer-sns-box img:hover{
 .header3{
     width: 1335px;
     height: 246px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img//店内/ogasuta458A7968_TP_V.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img//stre/ogasuta458A7968_TP_V.jpg);
     background-repeat: no-repeat;
     display: flex;
     position: relative;
@@ -381,7 +381,7 @@ h2{
 .header4{
     width: 1335px;
     height: 246px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/店内/PAK88_manganotana20141108161323.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/store/PAK88_manganotana20141108161323.jpg);
     background-repeat: no-repeat;
     display: flex;
     position: relative;
@@ -483,7 +483,7 @@ section .syoukai div{
 .header5{
     width: 1335px;
     height: 246px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/店内/ogasuta458A7866_TP_V.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/store/ogasuta458A7866_TP_V.jpg);
     background-repeat: no-repeat;
     display: flex;
     position: relative;
