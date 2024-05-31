@@ -1,0 +1,499 @@
+@charset "UTF-8";
+
+/* 共通 */
+
+html{
+    font-size: 100%;
+}
+
+body{
+    text-align: justify;
+    margin: 0 auto;
+}
+
+/* header .back img{
+    width: 1366px;
+    height: 768px;
+} */
+
+header{
+    width: 1335px;
+    height: 630px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/店内/pexels-scott-webb-253058611.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+.logo img{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+body .wrap{
+    justify-content: center;
+}
+
+body main{
+    color: #fff;
+    text-align: center;
+}
+
+#gnav{
+    padding-top: 35px;
+    padding-left: 331px;
+}
+
+#gnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 700px;
+    height: 148px;
+}
+
+#gnav ul li a{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    padding-top: 61.5px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#gnav ul li a:hover{
+    color: aqua;
+}
+
+/* .gnav{
+    float: right;
+}
+
+nav ul{
+    border: 1px solid #fff;
+    background-color: red;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 960px;
+    height: 143px;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    text-shadow: #000;
+} */
+
+main{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+
+main h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+main p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* コンテスト */
+
+.contest-wrap{
+    display: flex;
+    position: absolute;
+    top: 475px;
+    left: 50px;
+}
+
+section .wrapper{
+    display: flex;
+    padding-left: 20px;
+}
+
+.contest img{
+    width: 426px;
+    height: 150px;
+}
+
+.contest img:hover{
+    color: aqua;
+}
+
+/* sns */
+
+#sns{
+    padding-left: 400px;
+    /* background-color: aqua; */
+}
+
+#sns img{
+    width: 80px;
+    height: 80px;
+    /* background-color: red; */
+}
+
+.sns-box{
+    padding-left: 20px;
+    /* background-color: orange; */
+}
+
+#sns .sns-box .sub-title{
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 5px #000;
+    /* background-color: green; */
+}
+
+#sns .sns-box:hover{
+    color: aqua;
+}
+
+/* ここからこだわりと想い */
+
+.header2{
+    width: 1335px;
+    height: 246px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/漫画関連/aaa.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+.logo img{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+body .wrap{
+    justify-content: center;
+}
+
+body main{
+    color: #fff;
+    text-align: center;
+}
+
+#gnav{
+    padding-top: 35px;
+    padding-left: 331px;
+}
+
+#gnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 700px;
+    height: 148px;
+}
+
+#gnav ul li a{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    padding-top: 61.5px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#gnav ul li a:hover{
+    color: aqua;
+}
+
+.section-wrapper{
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-wrapper .kodawari{
+    color: #333;
+    border: #000 3px solid;
+    text-align: center;
+    width: 651px;
+    height: 250px;
+    margin-right: 10px;
+}
+
+.section-wrapper .omoi{
+    color: #333;
+    border: #000 3px solid;
+    text-align: center;
+    width: 651px;
+    height: 250px;
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: aqua;
+    width: 1335px;
+    height: 95px;
+    display: flex;
+}
+
+footer .small{
+    padding-left: 1000px;
+}
+
+footer .copy{
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 600px;
+}
+
+footer .footer-wrap{
+    display: flex;
+    padding-left: 370px;
+    padding-top: 10px;
+}
+
+footer .footer-wrap img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    padding-top: 35px;
+    padding-right: 20px;
+}
+
+footer .footer-wrap .footer-sns-box img:hover{
+    background-image: url(../img/icon/logo_icon_r4.png);
+    background-repeat: no-repeat;
+}
+
+/* ここからメニュー */
+
+.header3{
+    width: 1335px;
+    height: 246px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img//店内/ogasuta458A7968_TP_V.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+.logo img{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+body .wrap{
+    justify-content: center;
+}
+
+body main{
+    color: #fff;
+    text-align: center;
+}
+
+#gnav{
+    padding-top: 35px;
+    padding-left: 331px;
+}
+
+#gnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 700px;
+    height: 148px;
+}
+
+#gnav ul li a{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    padding-top: 61.5px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#gnav ul li a:hover{
+    color: aqua;
+}
+
+/* ここからボディ */
+
+body h2{
+    text-align: center;
+    padding: 5px ;
+}
+
+.menu img{
+    width: 150px;
+    height: 80px;
+    display: flex;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin-bottom: 0px;
+    height: 231px;
+    justify-content: space-between;
+}
+
+figure .syurui{
+    display: flex;
+}
+
+figure p,
+figure h3{
+    color: #333;
+    font-size: 10px;
+}
+
+figure h3{
+    font-weight: 3000;
+}
+
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* ここから設備 */
+.header4{
+    width: 1335px;
+    height: 246px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/店内/PAK88_manganotana20141108161323.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+.logo img{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+body .wrap{
+    justify-content: center;
+}
+
+body main{
+    color: #fff;
+    text-align: center;
+}
+
+#gnav{
+    padding-top: 35px;
+    padding-left: 331px;
+}
+
+#gnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 700px;
+    height: 148px;
+}
+
+#gnav ul li a{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    padding-top: 61.5px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#gnav ul li a:hover{
+    color: aqua;
+}
+
+body h2{
+    text-align: center;
+    padding: 5px ;
+    color: #333;
+}
+
+section{
+    display: flex;
+}
+
+section .syoukai{
+    border: solid 3px #000;
+    margin: 5px;
+}
+
+section .syoukai img{
+    /* background-color: red; */
+    width: 85px;
+    height: 85px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+section .syoukai{
+    display: flex;
+}
+
+section .syoukai h3,
+section .syoukai p{
+    color: #333;
+}
+
+section .syoukai ul{
+    padding-left: 3px;
+}
+
+section .syoukai ul li{
+    list-style-type: none;
+    font-size: 15px;
+    width: 195px;
+}
+
+section .syoukai div{
+    height: 215px;
+    width: 210px;
+}
+
+/* ここからアクセス */
+.header5{
+    width: 1335px;
+    height: 246px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url(../img/店内/ogasuta458A7866_TP_V.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+#location .location-map{
+    margin-left: 200px;
+}
+
+#location .location-info{
+    margin-left: 300px;
+    color: #333;
+}
